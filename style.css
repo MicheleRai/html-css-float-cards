@@ -19,12 +19,34 @@ p{
     margin-bottom: 3em;
 }
 .card{
+    color: white;
     background-color: rgb(15,14,23);
-    width:calc(33%-10px);
+    width:20vw;
     float: left;
     margin:5px;
-    
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+
 }
 img{
     float: left;
+    width: 100px;
+}
+.info{
+    margin-left: 120px;
+}
+h2,section,a{
+    height: 30px;
+}
+section{
+    font-size: small;
+    margin-top: 1em;
+}
+a{
+    color: #17CCF2;
+    text-decoration: none;
+    font-size: smaller;
 }
