@@ -2,4 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+}
+.title{
+    color: rgb(229,49,112);
+    text-align: center;
+    margin-top: 2em;
 }
