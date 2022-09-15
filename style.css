@@ -4,8 +4,27 @@
     box-sizing: border-box;
     font-family: 'Fredoka One', cursive;
 }
+body{
+    max-width: 1000px;
+    margin: auto;
+}
 .title{
     color: rgb(229,49,112);
     text-align: center;
     margin-top: 2em;
+}
+p{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.card{
+    background-color: rgb(15,14,23);
+    width:calc(33%-10px);
+    float: left;
+    margin:5px;
+    
+}
+img{
+    float: left;
 }
